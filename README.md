@@ -74,7 +74,6 @@ PROJET/
 │   ├── material.py
 │   ├── physics.py
 │   └── simulation.py
-│   (la carpeta __pycache__ seguirá aquí en tu PC, pero grisácea/ignorada)
 │
 ├── docs/                  
 │   ├── Rapport_fr.pdf
