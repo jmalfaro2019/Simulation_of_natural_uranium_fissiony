@@ -65,25 +65,25 @@ def get_watt_sample():
 ```bash
 PROJET/
 │
-├── .gitignore             # (Nuevo) Para que no se suba basura
-├── README.md              # Tu documentación principal
-├── requirements.txt       # (Corregido) Lista de dependencias
-├── main.py                # Tu punto de entrada limpio
+├── .gitignore           
+├── README.md              
+├── requirements.txt      
+├── main.py               
 │
-├── src/                   # Código fuente
+├── src/                  
 │   ├── material.py
 │   ├── physics.py
 │   └── simulation.py
 │   (la carpeta __pycache__ seguirá aquí en tu PC, pero grisácea/ignorada)
 │
-├── docs/                  # (Nuevo) Documentación
+├── docs/                  
 │   ├── Rapport_fr.pdf
 │   └── Rapport_eng.pdf
 │
-├── notebooks/             # (Nuevo) Demos y experimentos
+├── notebooks/             
 │   └── sim.ipynb
 │
-└── results/               # Salidas generadas
+└── results/              
     └── simulation_result.png
 ```
 ## 🧠 Skills Demonstrated
