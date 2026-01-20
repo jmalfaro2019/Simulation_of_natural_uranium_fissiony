@@ -48,3 +48,29 @@ def get_watt_sample():
     u = np.random.random()
     sample = np.interp(u, cdf, x)
     return sample
+```
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/jmalfaro2019/PROJET.git](https://github.com/jmalfaro2019/PROJET.git)
+2. Install dependencies:
+   ```bash
+   pip install numpy matplotlib scipy
+   ```
+3. Run the simulation script:
+   ```bash
+   python main.py
+   ```
+## 📚 Project Structure
+- `main.py`: Core simulation loop and physics logic.
+- `report.pdf`: Detailed scientific report (LaTeX) explaining the mathematical framework.
+- `data/` (or within the script): Contains cross-section datasets and interpolation logic.
+
+## 🧠 Skills Demonstrated
+- **Scientific Computing:** NumPy, Statistical Modeling, Numerical Integration.
+- **Physics Simulation:** Monte Carlo methods, Particle Transport.
+- **Data Visualization:** Matplotlib for analyzing population dynamics.
+- **Technical Writing:** Comprehensive LaTeX reporting.
+
+---
+*Project developed as part of a montecarlo coursework by Jose Alfaro, Luc Eustachon, Farah Dogui and Rana Korchid.*
