@@ -18,8 +18,7 @@ The simulation correctly validates that natural uranium in an infinite medium is
 ## 📊 Key Results
 The simulation tracks the neutron population over generations. Unlike simplified models that predict infinite growth, the physics-aware model demonstrates the "resonance trap" effect.
 
-![Simulation Result](img/output.png)
-*(Replace this with your actual graph image file)*
+![Simulation Result](results/simulation_result.png)
 
 **Result Analysis:**
 - **Initial Spike:** Caused by the injection of thermal neutrons into a high-fission cross-section environment.
